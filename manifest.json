@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "[L] Localhost marker",
+  "version": "0.1",
+  "description": "Prepends <title> with [L] for sites running on localhost.",
+  "author": "Krejčí Aleš — ALES.NET",
+  "icons": {
+    "16": "/icons/icon16.png",
+    "24": "/icons/icon24.png",
+    "32": "/icons/icon32.png",
+    "48": "/icons/icon48.png",
+    "128": "/icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://localhost/*"],
+      "js": ["/js/content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "[L] Localhost marker",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Prepends <title> with [L] for sites running on localhost.",
   "author": "Krejčí Aleš — ALES.NET",
   "icons": {
